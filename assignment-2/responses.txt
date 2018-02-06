@@ -1,0 +1,13 @@
+#### Briefly describe one way how data travels on the internet.
+Data is made up of bits that are sent over the internet using electricity, light, and radio waves. How fast this data travels depends on bandwidth and bitrate. These bits will travel from client to server and back in packages.
+
+#### What is the relationship between IP address and the DNS?
+An IP address is a computer's address, but most users aren't familiar with using an IP to go to a website. That's where the DNS comes in, or the Domain Name System. The DNS associates names with the corresponding addresses.
+
+#### What is a cookie?
+Cookies are small pieces of data, id numbers, that will allow websites to remember who the user is when the user accesses the website again. Cookies can be very useful in streamlining the user's experience when using the internet.
+
+#### List the the three basic parts of a URL:
+* protocal
+* domain name
+* path
