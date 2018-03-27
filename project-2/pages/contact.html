@@ -4,27 +4,72 @@
 
     <title>Contact</title>
 
-    <!-- Define the character set used: -->
     <meta charset="UTF-8">
 
-    <!-- Provide a description of your page: -->
     <meta name="description" content="Web-Dev-HW Project 2 Contact Page">
 
-    <!-- Provide the author information for the page: -->
     <meta name="author" content="Lynne Spears">
 
     <meta name="keywords" content="Intro to Web Development, Web Development, Web Design, HTML, CSS, University of Montana, Art, How to, Hands, Contact">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>
+      body {
+        background-color: #E8B2E2;
+        }
+      .container {
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid purple;
+        background-color: #F4E5FF;
+      }
+      .materials-container {
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid purple;
+        background-color: #F4E5FF;
+      }
+      table, td, th {
+      border: 1px solid purple;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+
+      }
+    </style>
+
   </head>
+
 
   <body>
 
-    <p>
-      <a href="../index.html">Home</a><br />
-      <a href="./about.html">About</a><br />
-    </p>
+    <div id="contact form" class="container">
+      <h2>Contact Details</h2>
+      <!-- Contact Form -->
+      <form action="../index.html" method="post"
+        <p>Name:<br />
+          <input type="text" name="name" id="name-first" placeholder="First"/><br />
+          <input type="text" name="name" id="name-last" placeholder="Last"/><br />
+        E-mail:<br />
+          <input type="email" name="email" placeholder="you@email.com" autofocus/><br />
+        Comments:<br />
+          <textarea name="comments" id="comments-textarea" cols="30" rows="3"></textarea><br />
+          <input type="submit" name="submit" value="Submit" />
+        </p>
+    </form>
+    </div>
+
+    <div id="pages" class="container">
+      <!-- Page Links -->
+      <p>
+        <a href="../index.html">Home</a><br />
+        <a href="./about.html">About</a><br />
+      </p>
+    </div>
 
   </body>
 </html>

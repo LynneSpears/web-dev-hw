@@ -4,27 +4,118 @@
 
     <title>About</title>
 
-    <!-- Define the character set used: -->
     <meta charset="UTF-8">
 
-    <!-- Provide a description of your page: -->
     <meta name="description" content="Web-Dev-HW Project 2 About Page">
 
-    <!-- Provide the author information for the page: -->
     <meta name="author" content="Lynne Spears">
 
     <meta name="keywords" content="Intro to Web Development, Web Development, Web Design, HTML, CSS, University of Montana, Art, How to, Hands, About">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <style>
+      body {
+        background-color: #E8B2E2;
+        }
+      .container {
+        text-align: center;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid purple;
+        background-color: #F4E5FF;
+      }
+      .materials-container {
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid purple;
+        background-color: #F4E5FF;
+      }
+      table, td, th {
+      border: 1px solid purple;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+
+      }
+    </style>
+
   </head>
+
 
   <body>
 
-    <p>
-      <a href="../index.html">Home</a><br />
-      <a href="./about.html">About</a><br />
-    </p>
+    <!-- About Me -->
+    <div id="about me" class="container">
+
+      <h2>About Me</h2>
+      <p>
+        I'm an undergrad student at the University of Montana.<br/>
+        I am currently working on a Bachelor's in Science in<br/>
+        Computer Science as well as a Bachelor's in Fine Art<br/>
+        in Media Arts. I love art, modeling, drawing, programming,<br/>
+        animation, draphic design, and game design. I one day want<br/>
+        to start my own independent game company.<br/>
+
+    </div>
+
+    <!-- About Project -->
+    <div id="about project" class="container">
+
+      <h2>About This Project</h2>
+      <p>
+        I've been drawing for several years now and<br/>
+        I've picked up a few tips and tricks along the way.<br/>
+        While I may not be an expert, I think I know enough<br/>
+        to help others out. Drawing hands always seems like<br/>
+        something a lot of people really struggle with.<br/>
+        I've spent some time practicing hands in particular<br/>
+        and I think other people could benefit from my experience.
+
+    </div>
+
+    <!-- Video Resource -->
+    <div id="video resource" class="container">
+      <h2>Additional Resources</h2>
+      <P>
+        Art can be fairly complicated and not everyone learns the same way.<br/>
+        It's always handy to have extra resources you can learn from.<br/>
+        Sycra is a fantastic art YouTuber and his videos have helped me in the past.<br/>
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qUbt1l4tBJg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>
+        Another handy resource is the <a href="./test/about.html">Line of Action</a> website.<br />
+        They have a lot of references for hands and timed sessions for practice.
+      </p>
+
+    </div>
+
+    <div id="physical destination" class="container">
+      <!-- University Address -->
+      <h2>Contact Me:</h2>
+      <p><a href="mailto:lynne.spears@umontana.edu">Email</a></p>
+      <address>
+        University of Montana<br>
+        School of Media Arts, McGill Hall Rm 224<br>
+        32 Campus Dr<br>
+        Missoula, MT 59812<br>
+      </address>
+      <br/>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.048493388356!2d-113.98581439934034!3d46.86241807903995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc33c3d4cbd5%3A0xd77cd4f46bdf5b89!2sMcGill+Hall%2C+32+Campus+Dr%2C+Missoula%2C+MT+59812!5e0!3m2!1sen!2sus!4v1520887034588" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+
+    <div id="pages" class="container">
+      <!-- Page Links -->
+      <p>
+        <a href="#about me">Top of Page</a><br />
+        <a href="../index.html">Home</a><br />
+        <a href="./contact.html">Contact</a><br />
+      </p>
+    </div>
 
   </body>
 </html>
